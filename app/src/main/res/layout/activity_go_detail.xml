@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/goDetailScroll"
+    tools:context="com.mphrx.android.activities.GoDetailActivity">
+    <LinearLayout android:orientation="vertical" android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mphrx.android.widgets.AutoResizeTextView android:ellipsize="none" android:paddingLeft="5dp" android:paddingRight="5dp"
+            android:layout_width="match_parent" android:id="@+id/goDetailRow1"
+            android:layout_height="80dp" android:singleLine="false" android:textSize="16dp"/>
+        <View
+            android:layout_width="match_parent" android:layout_marginBottom="10dp"
+            android:layout_height="2dp" android:background="@color/blueColor"/>
+        <TextView android:padding="16dp"
+            android:layout_width="match_parent" android:id="@+id/goDetailRow2"
+            android:layout_height="wrap_content" style="@style/DetailRow2" android:singleLine="false" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp" android:background="@color/blueColor"/>
+        <WebView
+            android:id="@+id/goDetailWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+    </LinearLayout>
+</ScrollView>

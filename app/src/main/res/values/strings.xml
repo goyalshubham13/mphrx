@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mphrx</string>
+
+    <string name="server_error_toast">Server error occurred. Please try again.</string>
+    <string name="connection_error_title">Connection Error!</string>
+    <string name="error_title">Went wrong</string>
+    <string name="connection_error_txt">Unable To Identify Network Connection</string>
+    <string name="retry_btn">Retry</string>
+    <string name="ok_btn">OK</string>
+    <string name="alert_txt">ALERT</string>
+    <string name="cancel_btn">CANCEL</string>
+    <string name="exit_btn">Exit</string>
+    <string name="progress_txt">Getting data...</string>
+
+    <!-- main activity -->
+    <string name="go_btn_label">GO</string>
+    <!-- main activity -->
+
+    <!-- list/grid activity -->
+    <string name="demo_activity_title">Demo</string>
+    <string name="grid_view">Grid View</string>
+    <string name="list_view">List View</string>
+    <!-- list/grid activity -->
+
+    <!-- detail activity -->
+    <string name="detail_activity_title">Detail</string>
+    <!-- detail activity -->
+</resources>

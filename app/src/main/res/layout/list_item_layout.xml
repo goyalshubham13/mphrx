@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp" android:scaleType="fitCenter"
+        android:id="@+id/listItemImageView" android:src="@drawable/nature_beauty" />
+    <android.widget.Space
+        android:layout_width="10dp"
+        android:layout_height="1dp" />
+    <TextView android:id="@+id/listItemDescTxt"
+        android:layout_width="match_parent" style="@style/ListDesc" android:text="hihi"
+        android:layout_height="wrap_content" />
+</LinearLayout>
